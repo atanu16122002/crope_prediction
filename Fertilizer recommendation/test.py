@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 
 # Load the trained model
-with open('classifier1.pkl', 'rb') as file:
+with open('Fertilizer_Recommendation_Model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Take input from the user
